@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 // In Express >= 4.16.0 body parser re-added under express.json() and express.urlencoded()
-const bodyParser = require("body-parser");
+//const bodyParser = require("body-parser");
 app.use(express.json());
 
 const mockUserData = [{ name: "Mark" }, { name: "jill" }];
